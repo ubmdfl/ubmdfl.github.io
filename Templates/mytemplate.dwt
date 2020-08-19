@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Welcome to UA CVML</title>
+<!-- TemplateEndEditable -->
+<link href="../images/style.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="container">
+  <div id="banner">
+    <div align="center"><img src="../images/original-home-bg.png" width="946" height="234" /></div>
+  </div>
+  <div id="nav">
+    <ul>  
+      <li><a href="../index.html"> Home</a></li>
+          <li><a href="../cvml_people.html">People</a></li>
+          <li><a href="../cvml_research.html">Research</a></li>
+          <li><a href="../cvml_publications.html">Publications</a></li>
+          <li><a href="../cvml_downloads.html">Downloads</a></li>
+    </ul>  
+  </div>
+<div id="content">
+    <div id="left1"><!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable -->    </div>
+  </div>
+  
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=l83n2h_sI62cL-T2h5XrSv4bKJ3s0QS6s1bWZc4Iymk'></script>
+<div id="footer">
+      <p align="center">Copyright UA CVML, All rights reserved</p>
+  </div>
+</div>
+</body>
+</html>
