@@ -1,0 +1,300 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name=keywords content="Shu Hu, Deep Learning, Machine Learning, Data Mining">
+
+	<title>Shu Hu's Homepage</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+	<style type="text/css">
+	.container {
+	margin:0px auto;
+	padding:20px 15px 15px 15px;
+	width: 85%;
+	}
+	h2,h4{display:inline;}
+	hr{border-top: 1px solid #9D9D9D;width:100%;}
+
+	li{font-size: 15px;}
+	/*up*/
+	#goTopBtn{position: fixed; text-align: center; line-height: 30px; width: 30px; bottom: 35px; cursor: pointer; right: 20px;_position: absolute; _right: auto}
+
+	</style>
+
+	<script type="text/javascript">
+    window.onscroll = function(){
+        var t = document.documentElement.scrollTop || document.body.scrollTop;
+        var div_up = document.getElementById("uptop");
+        t > 300 ? div_up.style.display="block" : div_up.style.display="none";
+    }
+
+    function scroTop(){
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+	</script>
+
+	<script type="text/javascript">
+	<!-- up -->
+	function goTopEx() {
+		var obj = document.getElementById("goTopBtn");
+		function getScrollTop() {
+			return document.documentElement.scrollTop + document.body.scrollTop;
+		}
+		function setScrollTop(value) {
+			if (document.documentElement.scrollTop) {
+			document.documentElement.scrollTop = value;
+			} else {
+			document.body.scrollTop = value;
+			}
+		}
+		window.onscroll = function() {
+			getScrollTop() > 0 ? obj.style.display = "": obj.style.display = "none";
+		}
+		obj.onclick = function() {
+			/*
+			var goTop = setInterval(scrollMove, 1);
+			function scrollMove() {
+				setScrollTop(getScrollTop() / 1.1);
+				if (getScrollTop() < 1) clearInterval(goTop);
+			} */
+			document.body.scrollTop = document.documentElement.scrollTop = 0;
+		}
+	}
+	</script>
+
+
+
+</head>
+
+<body>
+
+	<div style="display: none" id="goTopBtn"><img border=0 <img src="image/top.jpg"style="width:30px;height:30px"> ></div>
+	<script type=text/javascript>goTopEx();</script>
+
+	<div class="container">
+
+		<div class="row"  >
+			<div class="col-md-6" style="width:270px;float:left;">
+				<img src="image/hushu.jpg" style="width:auto;height:auto;max-width:100%;max-height:100%;">
+			</div>
+			<div class="col-md-6">
+				<br>
+				<h2>
+					Shu Hu
+					<img src="image/signature.jpg" style="width:50px;height:30px">
+				</h2>
+
+				<br>
+				<h3>Ph.D. student</h3>
+				<h3>Research Assistant <a href="http://www.buffalo.edu/" target="_blank">University at Buffalo - State University of New York</a> </h3>				
+				<!--<h3>Research Assistant <a href="http://www.sklois.cn/">State Key Laboratory of Information Security of Institute of Information Engineering</a><br> </h3>-->
+			</div>
+		</div>
+		<br />
+		<hr>
+
+		<h3 id="cor">Correspondence</h3>
+		<div class="row">
+			<div class="col-md-12">
+
+				<table class="table table-striped">
+			        <tbody>
+			          <!--<tr bgcolor= #F9F9F9>-->
+			          <tr>
+			            <td>Phone:</td>
+			            <td>+1(518)-364-1641, +86-18612973768</td>
+			          </tr>
+			          <tr>
+			            <td>Email:</td>
+			            <td><img src="image/email.PNG" style="height:30px;"></td>
+			          </tr>
+			          <tr>
+			            <td>Homepage:</td>
+			            <td> <a href=" http://www.buffalo.edu/~shuhu/shuhu.html">http://www.buffalo.edu/~shuhu/shuhu.html</a></td>
+			          </tr>
+			          <tr>
+			            <td>Office:</td>
+			            <td>Davis Hall, Buffalo, NY, 14260</td>
+			          </tr>
+			        </tbody>
+		      </table>
+
+			</div>
+		</div>
+		<hr>
+
+		<div class="row" >
+			<div class="col-md-12" align="center">
+				<p>
+					[<a href="#bio">Brief Biography</a>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					[<a href="#pub">Selected Publications</a>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					[<a href="#project">Project Experiences</a>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					[<a href="#awards">Awards</a>]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					
+
+				</p>
+
+			</div>
+
+		</div>
+		<hr>
+		<h3 id="bio">Brief Biography</h3>
+		<div class="row">
+			<div class="col-md-12">
+				<p>
+					I'm a third-year computer science Ph.D. student at University at Buffalo (UBuffalo), SUNY, working with <a href="https://cse.buffalo.edu/~siweilyu/index.html"><span class="s2">Prof.Siwei Lyu</span></a>. I spend my first and second year at University at Albany (UAlbany), SUNY. During the first year of my Ph.D., I was working with <a href="https://personal.utdallas.edu/~fxc190007/"><span class="s2">Prof.Feng Chen</span></a>.
+				</p>
+				
+				<p>
+					<!--And I am also a Research Assistant in State Key Laboratory of Information Security of Institute of Information Engineering, Chinese Academy of Sciences(CAS).-->I received my Master of Arts (Mathematics) degree from UAlbany, SUNY in 2020 under the advising of <a href="https://www.albany.edu/~yy298919/"><span class="s2">Prof.Yiming Ying</span></a> and I also received my Master of Engineering degree from University of Science and Technology of China (USTC) in 2016 under the advising of <a href="http://staff.ustc.edu.cn/~cheneh"><span class="s2">Prof.En-Hong Chen</span></a>. I was previously a visiting student (2014-2015) at University of South Australia (UniSA), where I worked with <a href="http://people.unisa.edu.au/jiuyong.li"><span class="s2">Prof.Jiuyong Li</span></a> and <a href="http://people.unisa.edu.au/thuc.le"><span class="s2">Dr.Thuc Duy Le</span></a>.
+				</p>
+				
+				<p>
+          My current research interests are data mining, machine learning and deep learning, especially Optimization in Machine Learning and Bayesian Deep Learning. I also interest in information security, biomedical informatics, internet of things.
+
+				</p>
+
+			</div>
+
+		</div>
+
+		<hr>
+
+		<h3 id="pub">Selected Publications</h3>
+		<div class="row">
+			<div class="col-md-12">
+				
+				<A href="https://scholar.google.com/citations?user=q4qu28QAAAAJ&hl=en"><b>Google Scholar</b></A>
+				
+				<p><font size=3><b>2019</b></font></p>
+
+				<ol>
+					
+				<!--<li> <strong><font color="#FF0000">News!</font></strong> <b>One paper based on Uncertainty in deep learning</b> has been submitted to <i><b>(ICLR 2020)</b></i> 2019.
+				</li>-->
+				
+				<p></p>
+					
+				<li>Xujiang Zhao, <u><b>Shu Hu</b></u>, Jin-Hee Cho, Feng Chen. <b>Uncertainty-based Decision Making Using Deep Reinforcement Learning</b>, <i> International Conference on Information Fusion <b>(FUSION)</b></i>, 2019, 7.
+				[<a href="paper_pdf/FUSION_2019.pdf" target="_blank">PDF</a>]
+				</li>
+
+				</ol>
+				
+				<p><font size=3><b>2018</b></font></p>
+
+				<ol>
+				<li>Thuc Duy Le, Taosheng Xu, Lin Liu, <u><b>Hu Shu</b></u>, Tao Hoang, Jiuyong Li. <b>ParallelPC: An R Package for Efficient Causal Exploration in Genomic Data</b>, <i> Pacific-Asia Conference on Knowledge Discovery and Data Mining <b>(PAKDD)</b></i>, 2018, 6.
+				[<a href="paper_pdf/ParallelPC.pdf" target="_blank">PDF</a>]
+				</li>
+
+				</ol>
+				
+				<p><font size=3><b>2017</b></font></p>
+
+				<ol>
+				<li>Thuc Duy Le, Junpeng Zhang, Lin Liu, Buu Minh Thanh Truong, <u><b>Shu Hu</b></u>, Taosheng Xu, Jiuyong Li. <b>Identifying microRNA targets in epithelial-mesenchymal transition using joint-intervention causal inference</b>, <i> Computational Systems-Biology and Bioinformatics <b>(CSBio)</b></i>, 2017, 8.
+				[<a href="paper_pdf/CSBio2017_Joint_Intervention.pdf" target="_blank">PDF</a>]
+				</li>
+
+				</ol>
+				
+				<p><font size=3><b>2016</b></font></p>
+				
+				<ol>
+					
+				<li>Thuc Duy Le, Tao Hoang, Jiuyong Li, Lin Liu, Huawen Liu, <u><b>Shu Hu</b></u>, <b>A fast PC algorithm for high dimensional causal discovery with multi-core PCs</b>, <i>IEEE-ACM Transactions on Computational Biology and Bioinformatics <b>(IEEE TCBB)</b></i>, 2016.
+				[<a href="paper_pdf/bare_jrnl_compsoc.pdf" target="_blank">PDF</a>]
+				</li>
+
+				</ol>
+				
+				<p><font size=3><b>2015</b></font></p>
+				
+				<ol>
+					
+				<li>Thuc Duy Le, Tao Hoang, Jiuyong Li, Lin Liu, <u><b>Shu Hu</b></u>, <b>ParallelPC: an R package for efficient constraint based causal exploration</b>, <i>arXiv preprint arXiv:1510.03042 <b>(arXiv)</b></i>, 2015.
+				[<a href="paper_pdf/ParallelPC_ce.pdf" target="_blank">PDF</a>]
+				</li>
+
+				</ol>
+				
+				<p><font size=3><b>2014</b></font></p>
+
+				<ol>
+				
+				<li>Yang Shu, <u><b>Shu Hu</b></u>, <b>An Sample Analysis of Heavy Metal Pollution to Urban Surface Soil Based on Transfer Function Theory</b>, <i>Applied Mechanics and Materials <b>(AMM)</b></i>, 2014 ,Volumes 446-447, 1516-1522.
+				[<a href="paper_pdf/An Sample Analysis_AMM.pdf" target="_blank">PDF</a>]
+				</li>
+
+				</ol>
+
+			
+
+			</div>
+
+		</div>
+		<hr>
+		<h3 id="project">Project Experiences</h3>
+		<div class="row">
+			<div class="col-md-12">
+				<ul>
+					<li><b>2019:</b>
+					  <ul>
+					  	<li>Voter Registration Visualization and Pattern Analysis Demonstration Prototype <a href=" https://www.ctg.albany.edu/projects/nysvoters/ "><span class="s2">Project</span></a>. (<b>CTG UAlbany and the New York State Board of Elections (NYSBOE)</b>) </li>
+					  </ul>
+					</li>
+					
+					<li><b>2017:</b>
+					  <ul>
+					  	<!--<li>Participating in the application of <b>The Natural Science Foundation of China</b></li>-->
+					  	<li>Develop an anomaly monitoring system based on large data technology (Hadoop, Spark)</li>
+					  	<li>Develop futures trading system (Java, JavaScript）</li>
+					  </ul>
+					</li>
+					<li><b>2016:</b>
+					  <ul>
+					  	<!--<li>Develop public opinion monitoring system for <b>Cyberspace Administration of China</b> (PHP, Java)</li>-->
+					  	<li>Participating in creditcard risk control project of <b>DiscoverFinancial Services</b></li>
+					  </ul>
+					</li>
+					<li><b>2015:</b>
+					  <ul>
+					  	<li>Combine the pcalg algorithm and parallel algorithm in R to improve thetime complexity. The <a href=" https://cran.r-project.org/web/packages/ParallelPC/index.html "><span class="s2">pcalg_parallel</span></a> package has been accepted by CRAN。</li>
+						  <li>Customer data analysis for Travel super store company in Australia.</li>
+					  	<li>Improve and Design the tools of AlgorithmsCRPA and CRCS for the paper of <b>Discovery of Causal Rules Using PartialAssociation (ICDM 2012)</b></li>
+					  	<li>Contribution in publishing book of Practicalapproaches to causal relationship exploration. This <a href=" http://nugget.unisa.edu.au/Causalbook/ "><span class="s2">book</span></a> has been published in Springer.</li>
+					  </ul>
+					</li>
+
+				</ul>
+
+
+			</div>
+
+		</div>
+		<hr>
+
+		<h3 id="awards"> Honors and Awards</h3>
+		<div class="row" >
+			<div class="col-md-12">
+				<ul>
+				  	<li>The third prize of American college students’ mathematical modeling contest (2013)</li>				  	
+				  	<li>The dean special scholarships (2012)</li>
+				  	<li>The first prize of China college students’ mathematical modeling contest (2011)</li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>
